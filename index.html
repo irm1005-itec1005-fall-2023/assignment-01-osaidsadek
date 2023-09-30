@@ -42,12 +42,333 @@
   <body>
     <!--
 
+    
+
       LIST ANY CITATIONS HERE
 
-        * A
+        * A Used code from Tutorial 2 solutions.
         * B
 
     -->
+    <header>
+      <h2>Site Header</h2>
+    
+      <p>Site title: Real Madrid Facts</title></p>
+    
+      <img src="R.png">
+
+    
+      <nav>
+        <h3>Site Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h1>Real Madrid Data/Facts </h1>
+    <img src="OIP.jpg">
+      <section>
+        <h2>Table of contents</h2>
+    
+        <ul>
+          <li>
+            <a href="#summary">Real Madrid Trophies</a>
+          </li>
+          <li><a href="Real madrid">Real Madrid Top Scrorers</a></li>
+          <li><a href="Real madrid">Real Madrid Stadium</a></li>
+          <li><a href="Real Madrid">Real Madrid Legends</a></li>
+        </ul>
+      </section>
+    
+      <section>
+        <h2 id="Real Madrid">Real Madrid Trophies All Time</h2>
+      
+        <ul>
+          <li>
+            14 Uefa Champions League 
+            <ul>
+    
+            </ul>
+          </li>
+          <li>
+            8 FIFA Club World Cups 
+          </li>
+          <li>The Best Club Of The 20TH Century FIFA Trophy </li>
+          <li>5 European Super Cups </li>
+          <li>
+            35 National Leagues 
+          <li>12 Spanish Super Cups</li>
+          <li>20 Spanish Cups</li>
+          <li>2 Uefa Cups</li>
+          <li>1 League Cup</li>
+          <li>2 Small World Cups</li>
+          <li>2 Latin Cups</li>
+          <li>1 Ibero-American Cup</li>
+          <li>18 Regional Championship</li>
+          <li>5 Mancomunados Trophies</li>
+               </ul>
+    
+        <!-- Data Source: https://www.realmadrid.com/en/about-real-madrid/honours/football -->
+      </section>
+      <h2>Top Scorers For Real Madrid</h2>
+    
+    
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player name</th>
+            <th>Goals</th>
+             </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Cristiano Ronaldo</td>
+            <td>450</td>
+           
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Karim Benzema</td>
+            <td>352</td>
+            
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Raul</td>
+            <td>324</td>
+            
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Alfredo Di Stefano</td>
+            <td>266</td>
+            
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Santillana</td>
+            <td>236</td>
+            
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Ferenc Puskas	</td>
+            <td>195</td>
+            
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Hugo Sanchez</td>
+            <td>190</td>
+            
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Emilio Butragueno</td>
+            <td>154</td>
+           
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Paco Gento</td>
+            <td>134</td>
+            
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Fernando Hierro</td>
+            <td>124</td>
+  
+          
+          </tr>
+        </tfoot>
+      </table>
+      
+    
+        <!-- Original Source:https://realmadridlatestnews.com/real-madrid-top-scorers/ -->
+    
+      </section>
+    
+      <section>
+        <h2 id="Santiago Bernabeu"></h2>
+
+    
+        <section>
+          <h2>Real Madrid Stadium</h2>
+    
+          <p>
+            Santiago Bernabeu
+          </p>
+    
+          <ul>
+            <li>The Santiago Bernabeu first opened in 1947</li>
+            <li>The capacity of the Santiago Bernabeu is 81 thousand</li>
+            <li>
+            The stadium is named after Real Madrid legend Santiaho Bernabeu
+            </li>
+            <li>
+            The Santiago Bernabeu is one of the biggest stadiums in the sport
+            </li>
+          </ul>
+        </section>
+    
+        <section>
+          <h2>Real Madrid Legends</h2>
+          
+        <p>Four Real Madrid Legends</p>
+           
+        <ul>
+          <li>Cristiano Ronaldo</li>
+          <li>Arbeloa</li>
+          <li>
+          Sergio Ramos
+          </li>
+          <li>
+          Gareth Bale
+          </li>
+        </ul>
+        
+        
+    
+        
+    
+      <section>
+        <h2 id="form">Real Madrid form</h2>
+    
+        <p>
+         After learming about the club please tell me who is your favourtie legend?
+        </p>
+
+    
+        <!-- Form -->
+    
+        <form>
+          <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+            />
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="email" />
+    
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+    
+            <label for="Player">Player name:</label>
+            <select id="player" name="player" required>
+              <option value="">--Please choose an option--</option>
+              <option value="Ronaldo">Ronaldo</option>
+              <option value="Sergio Ramos">Sergio Ramos</option>
+              <option value="Gareth Bale">Gareth Bale</option>
+              <option value="Arbeloa">Arbeloa</option>
+            
+            </select>
+          </fieldset>
+    
+          <fieldset>
+            <legend>Feedback:</legend>
+    
+            <label for="topic">Subject/Topic:</label>
+            <input type="text" id="topic" name="topic" required />
+    
+            <label>Feedback Type:</label>
+            <input
+              type="radio"
+              id="suggestion"
+              name="feedback_type"
+              value="suggestion"
+              required
+            />
+            <label for="suggestion">Suggestion</label>
+            <input
+              type="radio"
+              id="concern"
+              name="feedback_type"
+              value="concern"
+            />
+            <label for="concern">Concern</label>
+            <input
+              type="radio"
+              id="appreciation"
+              name="feedback_type"
+              value="appreciation"
+            />
+            <label for="appreciation">Appreciation</label>
+    
+            <label for="feedback">Feedback Details:</label><br />
+            <textarea
+              id="feedback"
+              name="feedback"
+              rows="4"
+              cols="50"
+              required
+            ></textarea>
+    
+            <label for="priority">Priority Level:</label>
+            <select id="priority" name="priority">
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+    
+            <label for="location">Location (if applicable):</label>
+            <input type="text" id="location" name="location" />
+          </fieldset>
+    
+          <fieldset>
+            <legend>Follow-up Information:</legend>
+    
+            <input type="checkbox" id="followup" name="followup" value="yes" />
+            <label for="followup"
+              >I would like to receive a follow-up response.</label
+            >
+    
+            <label for="contact_method">Preferred Contact Method:</label>
+            <select id="contact_method" name="contact_method">
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+            </select>
+          </fieldset>
+    
+          <fieldset>
+            <legend>Submit Feedback:</legend>
+    
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for="consent">I consent to the use of my feedback.</label>
+    
+            <input type="submit" value="Submit Feedback" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <h2>Site Footer</h2>
+    
+      <nav>
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    
+      <p>&copy; 2023</p>
+    </footer>
+   
 
     <!--
 
@@ -55,6 +376,6 @@
 
     -->
 
-    <h1>Assignment 01 - To Be Completed</h1>
+    
   </body>
 </html>
